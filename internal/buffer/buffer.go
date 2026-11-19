@@ -862,7 +862,7 @@ func (b *Buffer) isExecutableTextFileWithoutShebang() bool {
 	return b.isFileExecutable() &&
 		!b.isBinary() &&
 		b.hasNoShebang()
-		
+
 }
 
 // UpdateRules updates the syntax rules and filetype for this buffer
